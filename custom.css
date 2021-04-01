@@ -1,0 +1,64 @@
+ html {
+            scroll-behavior: smooth;
+            font-family: 'Cabin', sans-serif;
+        }
+
+        #home {
+            background-color: #ffffff;
+        }
+        #about {
+            background-color: #000000;
+        }
+        #contact {
+            background-color: #ffffff;
+        }
+        #portfolio {
+            background-color: #000000;
+        }
+
+        .btn, .form-control {
+            border-radius: 0;
+        }
+
+    .fa {
+            font-size: 20px;
+        }
+
+        .container-fluid {
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+        }
+
+        #sidebar {
+            width: 60px;
+        }
+
+        #main {
+            width: calc(100% - 60px);
+            margin-left: 60px;
+        }
+
+        .align-items-end {
+            position: absolute;
+            bottom: 0;
+        }
+
+        .align-items-start {
+            position: absolute;
+            top: 0;
+        }
+
+        .align-items-center {
+            position: absolute;
+            top: 35%;
+        }
+
+        #logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: 8vw;
+        }
